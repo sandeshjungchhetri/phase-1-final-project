@@ -35,3 +35,10 @@ header{
     color:var();
     font-size: 1rem;
     }
+.search::placeholder{
+    color: var(--secondary-color);
+    }
+.search:focus{
+    outline: none;
+    background-color:var(--primary-color);
+    }
