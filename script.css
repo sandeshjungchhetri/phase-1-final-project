@@ -2,3 +2,11 @@
 *{
     box-sizing: border-box;   
  }
+ :root{
+    --primary-color: #dcf397;
+    --secondary-color:#180101;   
+}
+.dark-theme{
+    --primary-color:#212121;
+    --secondary-color:#eee;
+}
