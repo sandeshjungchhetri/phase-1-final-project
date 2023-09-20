@@ -21,3 +21,17 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+#icon{
+    width:30px;
+    cursor: pointer;
+    padding:2 rem 1 rem;
+}
+.search {
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: 2px solid var(--secondary-color);
+    background-color: transparent;
+    font-family: inherit;
+    color:var();
+    font-size: 1rem;
+    }
