@@ -6,3 +6,11 @@ const main= document.getElementById("main");
 const form=document.getElementById("form");
 const search=document.getElementById("search");
 var icon=document.getElementById("icon");
+getMovies(APIURL);
+
+async function getMovies(url){
+    const resp = await fetch(url);
+    const respData = await resp.json();
+    console.log(respData);
+    showMovies(respData.results);
+}
