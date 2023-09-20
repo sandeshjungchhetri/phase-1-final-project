@@ -55,3 +55,15 @@ main{
     overflow: hidden;
     position: relative;
 }
+.movie img{
+    width: 100%;
+      
+   }
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    color: #eee;
+    letter-spacing: 0.5px;
+    align-items: center;
+}
