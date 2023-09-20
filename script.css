@@ -76,3 +76,12 @@ main{
     border-radius: 3px;
     font-weight: bold;
 }
+.movie-info span.green{
+    color: rgb(46, 194, 46);
+}
+.movie-info span.orange{
+ color: orange;
+}
+.movie-info span.red{
+    color: red;
+}
