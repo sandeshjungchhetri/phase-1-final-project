@@ -10,3 +10,8 @@
     --primary-color:#212121;
     --secondary-color:#eee;
 }
+body{
+    margin: 0;
+    background-color: var(--primary-color);
+    font-family: "Poppins", sans-serif;
+}
