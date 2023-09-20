@@ -42,3 +42,7 @@ header{
     outline: none;
     background-color:var(--primary-color);
     }
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
