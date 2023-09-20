@@ -98,3 +98,9 @@ main{
     max-width: 100%;
     overflow: auto;
 }
+.movie:hover .overview{
+    transform: translateY(0);
+}
+.overview h4{
+    margin-top: 0;
+}
