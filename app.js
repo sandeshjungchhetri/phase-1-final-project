@@ -21,3 +21,8 @@ icon.onclick=function(){
         else
         icon.src="sun.png";
 }
+function showMovies(movies){
+    main.innerHTML=""
+    main.innerHTML = "";
+    movies.forEach((movie) => {
+    const { poster_path, title, vote_average, overview } = movie;
